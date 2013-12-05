@@ -117,6 +117,10 @@ PHP_FUNCTION(xdebug_is_enabled);
 /* breaking functions */
 PHP_FUNCTION(xdebug_break);
 
+/* php override functions */
+PHP_FUNCTION(override_function);
+PHP_FUNCTION(rename_function);
+
 /* tracing functions */
 PHP_FUNCTION(xdebug_start_trace);
 PHP_FUNCTION(xdebug_stop_trace);
